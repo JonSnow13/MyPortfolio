@@ -47,11 +47,11 @@
                 			</div>
 						  	<div class="carousel-inner" style="max-height: 305px;">
 						    	<div class="carousel-item active">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img.jpeg') }}" alt="First slide">
 						      		<input type="hidden" value="Outstanding On the Job Trainee">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img1.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img1.JPG') }}" alt="First slide">
 						      		<input type="hidden" value="Service Award.">
 						    	</div>
 						    	<div class="carousel-item">
