@@ -8,7 +8,7 @@
       <div class="col-md-6 ml-auto mr-auto">
         <div class="profile">
           <div class="avatar">
-            <img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+            <img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
           </div>
           <div class="name">
             <h3 class="title">Manuel U. Ortega Jr.</h3>
