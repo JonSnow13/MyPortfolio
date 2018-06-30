@@ -8,7 +8,7 @@
       <div class="col-md-6 ml-auto mr-auto">
         <div class="profile">
           <div class="avatar">
-            <img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+            <img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
           </div>
           <div class="name">
             <h3 class="title">Manuel U. Ortega Jr.</h3>
@@ -65,75 +65,75 @@
     			</div>
 			  	<div class="carousel-inner">
 			    	<div class="carousel-item active">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/1-homepage.jpg') }}" alt="First slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/1-homepage.JPG') }}" alt="First slide">
 			      		<input type="hidden" value="This is the home page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/2-searched-for-med.jpg') }}" alt="Second slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/2-searched-for-med.JPG') }}" alt="Second slide">
 			      		<input type="hidden" value="This is the search result.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/3-view-med.jpg') }}" alt="Third slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/3-view-med.JPG') }}" alt="Third slide">
 			      		<input type="hidden" value="View details of medicine.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/4-view-med-reviews.jpg') }}" alt="Fourth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/4-view-med-reviews.JPG') }}" alt="Fourth slide">
 			      		<input type="hidden" value="View medicine reviews and comments.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/5-view-more-med.jpg') }}" alt="Fifth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/5-view-more-med.JPG') }}" alt="Fifth slide">
 			      		<input type="hidden" value="View more similar medicine.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/6-view-direction.jpg') }}" alt="Sixth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/6-view-direction.JPG') }}" alt="Sixth slide">
 			      		<input type="hidden" value="View Pharmacy/ Hospital map direction.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/7-view-street-view.jpg') }}" alt="Seventh slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/7-view-street-view.JPG') }}" alt="Seventh slide">
 			      		<input type="hidden" value="View establishment's street view.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/8-view-open-hours.jpg') }}" alt="Eight slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/8-view-open-hours.JPG') }}" alt="Eight slide">
 			      		<input type="hidden" value="View operating hours.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/9-view-the-whole-map.jpg') }}" alt="Nineth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/9-view-the-whole-map.JPG') }}" alt="Nineth slide">
 			      		<input type="hidden" value="View big map.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/10-search-for-a-specific-pharmacy-or-hospital.jpg') }}" alt="Tenth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/10-search-for-a-specific-pharmacy-or-hospital.JPG') }}" alt="Tenth slide">
 			      		<input type="hidden" value="Search box for specific pharmacy, hospital and clinic.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/11-health-tips.jpg') }}" alt="Twelve slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/11-health-tips.JPG') }}" alt="Twelve slide">
 			      		<input type="hidden" value="Health tips page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/12-search-health-tips.jpg') }}" alt="Thirteenth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/12-search-health-tips.JPG') }}" alt="Thirteenth slide">
 			      		<input type="hidden" value="Search result for healh tips.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/13-view-health-tip.jpg') }}" alt="Fourtieth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/13-view-health-tip.JPG') }}" alt="Fourtieth slide">
 			      		<input type="hidden" value="View health tips.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/14-home-remedies.jpg') }}" alt="Fiftieth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/14-home-remedies.JPG') }}" alt="Fiftieth slide">
 			      		<input type="hidden" value="Home remedies page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/15-search-home-remedy.jpg') }}" alt="Sixtieth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/15-search-home-remedy.JPG') }}" alt="Sixtieth slide">
 			      		<input type="hidden" value="Search result for home remedies.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/16-view-home-remedy.jpg') }}" alt="Ninetieth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/16-view-home-remedy.JPG') }}" alt="Ninetieth slide">
 			      		<input type="hidden" value="View home remedy.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/17-about.jpg') }}" alt="Third slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/17-about.JPG') }}" alt="Third slide">
 			      		<input type="hidden" value="About page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/18-talk-with-us.jpg') }}" alt="Third slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/18-talk-with-us.JPG') }}" alt="Third slide">
 			      		<input type="hidden" value="Have a conversation with us.">
 			    	</div>
 			  	</div>
@@ -177,51 +177,51 @@
     			</div>
 			  	<div class="carousel-inner">
 			    	<div class="carousel-item active">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/1.jpg') }}" alt="First slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/1.JPG') }}" alt="First slide">
 			      		<input type="hidden" value="This is the home page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/2.jpg') }}" alt="Second slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/2.JPG') }}" alt="Second slide">
 			      		<input type="hidden" value="Item details.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/3.jpg') }}" alt="Third slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/3.JPG') }}" alt="Third slide">
 			      		<input type="hidden" value="An item has been successfully added.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/4.jpg') }}" alt="Fourth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/4.JPG') }}" alt="Fourth slide">
 			      		<input type="hidden" value="View cart page.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/5.jpg') }}" alt="Fifth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/5.JPG') }}" alt="Fifth slide">
 			      		<input type="hidden" value="View Address options.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/6.jpg') }}" alt="Sixth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/6.JPG') }}" alt="Sixth slide">
 			      		<input type="hidden" value="Payment process.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/7.jpg') }}" alt="Seventh slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/7.JPG') }}" alt="Seventh slide">
 			      		<input type="hidden" value="View order summary.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/8.jpg') }}" alt="Eight slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/8.JPG') }}" alt="Eight slide">
 			      		<input type="hidden" value="Reset password.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a1.jpg') }}" alt="Nineth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a1.JPG') }}" alt="Nineth slide">
 			      		<input type="hidden" value="All products - admin.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a2.jpg') }}" alt="Tenth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a2.JPG') }}" alt="Tenth slide">
 			      		<input type="hidden" value="View customers orders.">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a3.jpg') }}" alt="Twelve slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a3.JPG') }}" alt="Twelve slide">
 			      		<input type="hidden" value="Update status (Proccessing, Shipped, Delivered).">
 			    	</div>
 			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a4.jpg') }}" alt="Thirteenth slide">
+			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a4.JPG') }}" alt="Thirteenth slide">
 			      		<input type="hidden" value="View growth chart.">
 			    	</div>
 			  	</div>
@@ -256,7 +256,7 @@
 	        <div class="row">
 	        	<div class="col-md-4">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Manuel U. Ortega Jr.</h5>
@@ -267,7 +267,7 @@
 	        	</div>
 	        	<div class="col-md-4">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/angelica.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/angelica.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Ma. Angelica M. Pacaro</h5>
@@ -277,7 +277,7 @@
 	        	</div>
 	        	<div class="col-md-4">
 	        		<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/alliza.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/alliza.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Alliza Bless Alam</h5>
@@ -324,7 +324,7 @@
         	<div class="row">
         		<div class="col-md-3">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Manuel U. Ortega Jr.</h5>
