@@ -42,9 +42,9 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('projects') }}">
-              <i class="fas fa-project-diagram"></i>
-              Projects
+            <a class="nav-link" href="{{ url('gallery') }}">
+              <i class="far fa-images"></i>
+              Gallery
             </a>
           </li>
         </ul>
