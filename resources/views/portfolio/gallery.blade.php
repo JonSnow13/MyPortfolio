@@ -51,55 +51,55 @@
 						      		<input type="hidden" value="Outstanding On the Job Trainee">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img1.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img1.jpg') }}" alt="Second slide">
 						      		<input type="hidden" value="Service Award.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img11.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img11.jpg') }}" alt="Third slide">
 						      		<input type="hidden" value="Top student for ITE Elective IV / Web Development 2018.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img12.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img12.jpg') }}" alt="Fourth slide">
 						      		<input type="hidden" value="Creatice Digital Arts Club (CDAC) service award.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img0.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Academic Excellence award.">
-						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img2.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img2.jpg') }}" alt="Sixth slide">
 						      		<input type="hidden" value="">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img3.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img0.jpg') }}" alt="Fifth slide">
+						      		<input type="hidden" value="Academic Excellence award.">
+						    	</div>
+						    	<div class="carousel-item">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img3.jpg') }}" alt="Seventh slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img4.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img4.jpg') }}" alt="Eight slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img5.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img5.jpg') }}" alt="Nine slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img6.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img6.jpg') }}" alt="Ten slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img7.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img7.jpg') }}" alt="Eleven slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img8.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img8.jpg') }}" alt="Twelve slide">
 						      		<input type="hidden" value="Outstanding On the Job Trainee.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img9.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img9.jpg') }}" alt="Thirteen slide">
 						      		<input type="hidden" value="Caption.">
 						    	</div>
 						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img10.jpg') }}" alt="First slide">
+						      		<img class="d-block w-100" src="{{ asset('assets/images/awards/img10.jpg') }}" alt="Fourteen slide">
 						      		<input type="hidden" value="Top student for web development.">
 						    	</div>
 						  	</div>
