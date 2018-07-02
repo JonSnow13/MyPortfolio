@@ -45,62 +45,126 @@
                 					11 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner" style="max-height: 305px;">
-						    	<div class="carousel-item active">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Outstanding On the Job Trainee">
+						  	<div class="carousel-inner" style="max-height: 305px; height: 305px;">
+						    	<div class="carousel-item carousel-img-panel active">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img.jpg') }}" alt="1st slide">
+						      		<input type="hidden" class="caption" value="Outstanding On the Job Trainee">
+						      		<input type="hidden" class="pageCount" value="1">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img1.jpg') }}" alt="Second slide">
-						      		<input type="hidden" value="Service Award.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img1.jpg') }}" alt="2nd slide">
+						      		<input type="hidden" class="caption" value="Service Award.">
+						      		<input type="hidden" class="pageCount" value="2">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img11.jpg') }}" alt="Third slide">
-						      		<input type="hidden" value="Top student for ITE Elective IV / Web Development 2018.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img11.jpg') }}" alt="3rd slide">
+						      		<input type="hidden" class="caption" value="Top student for ITE Elective IV / Web Development 2018.">
+						      		<input type="hidden" class="pageCount" value="3">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img12.jpg') }}" alt="Fourth slide">
-						      		<input type="hidden" value="Creatice Digital Arts Club (CDAC) service award.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img12.jpg') }}" alt="4th slide">
+						      		<input type="hidden" class="caption" value="Creatice Digital Arts Club (CDAC) service award.">
+						      		<input type="hidden" class="pageCount" value="4">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img2.jpg') }}" alt="Sixth slide">
-						      		<input type="hidden" value="">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img2.jpg') }}" alt="5th slide">
+						      		<input type="hidden" class="caption" value="">
+						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img0.jpg') }}" alt="Fifth slide">
-						      		<input type="hidden" value="Academic Excellence award.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img0.jpg') }}" alt="6th slide">
+						      		<input type="hidden" class="caption" value="Academic Excellence award.">
+						      		<input type="hidden" class="pageCount" value="6">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img3.jpg') }}" alt="Seventh slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw1.jpg') }}" alt="7th slide">
+						      		<input type="hidden" class="caption" value="Service Award - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="7">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img4.jpg') }}" alt="Eight slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw11.jpg') }}" alt="8th slide">
+						      		<input type="hidden" class="caption" value="Data Structures & Algorithm Analysis.">
+						      		<input type="hidden" class="pageCount" value="8">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img5.jpg') }}" alt="Nine slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw2.jpg') }}" alt="9th slide">
+						      		<input type="hidden" class="caption" value="Management Information System - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="9">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img6.jpg') }}" alt="Ten slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw3.jpg') }}" alt="10th slide">
+						      		<input type="hidden" class="caption" value="Database Management System I - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="10">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img7.jpg') }}" alt="Eleven slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw4.jpg') }}" alt="11th slide">
+						      		<input type="hidden" class="caption" value="Databse Management System II - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="11">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img8.jpg') }}" alt="Twelve slide">
-						      		<input type="hidden" value="Outstanding On the Job Trainee.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw5.jpg') }}" alt="12th slide">
+						      		<input type="hidden" class="caption" value="Mobile Application Development - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="12">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img9.jpg') }}" alt="Thirteen slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw6.jpg') }}" alt="13th slide">
+						      		<input type="hidden" class="caption" value="Data Communication II - May 26, 2017.">
+						      		<input type="hidden" class="pageCount" value="13">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/achievements/img10.jpg') }}" alt="Fourteen slide">
-						      		<input type="hidden" value="Top student for web development.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw7.jpg') }}" alt="14th slide">
+						      		<input type="hidden" class="caption" value="Web Development - April 7, 2016.">
+						      		<input type="hidden" class="pageCount" value="14">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw8.jpg') }}" alt="15th slide">
+						      		<input type="hidden" class="caption" value="Certificate of  Training Completion - Nov 29, 2017.">
+						      		<input type="hidden" class="pageCount" value="15">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img8.jpg') }}" alt="16th slide">
+						      		<input type="hidden" class="caption" value="Outstanding On the Job Trainee.">
+						      		<input type="hidden" class="pageCount" value="16">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw9.jpg') }}" alt="17th slide">
+						      		<input type="hidden" class="caption" value="Databse Management System - April 7, 2016.">
+						      		<input type="hidden" class="pageCount" value="17">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/aw10.jpg') }}" alt="18th slide">
+						      		<input type="hidden" class="caption" value="Networking I - April 7, 2016.">
+						      		<input type="hidden" class="pageCount" value="18">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img3.jpg') }}" alt="19th slide">
+						      		<input type="hidden" class="caption" value=".">
+						      		<input type="hidden" class="pageCount" value="19">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img4.jpg') }}" alt="20th slide">
+						      		<input type="hidden" class="caption" value="Caption.">
+						      		<input type="hidden" class="pageCount" value="20">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img6.jpg') }}" alt="21th slide">
+						      		<input type="hidden" class="caption" value="Caption.">
+						      		<input type="hidden" class="pageCount" value="21">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img7.jpg') }}" alt="22th slide">
+						      		<input type="hidden" class="caption" value="Caption.">
+						      		<input type="hidden" class="pageCount" value="22">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img9.jpg') }}" alt="23th slide">
+						      		<input type="hidden" class="caption" value="Caption.">
+						      		<input type="hidden" class="pageCount" value="23">
+						    	</div>
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img10.jpg') }}" alt="24th slide">
+						      		<input type="hidden" class="caption" value="Top student for web development.">
+						      		<input type="hidden" class="pageCount" value="24">
 						    	</div>
 						  	</div>
 						  	<a class="carousel-control-prev" href="#carouselAwards" role="button" data-slide="prev">
@@ -123,49 +187,60 @@
                 				</h3>
                 			</div>
 						  	<div class="carousel-inner" style="max-height: 305px;">
-						    	<div class="carousel-item active">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern1.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Certificate & gifts.">
+						    	<div class="carousel-item carousel-img-panel active">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern1.jpg') }}" alt="1st slide">
+						      		<input type="hidden" class="caption" value="Certificate & gifts from Ozkez Pty. Ltd / AGuyIKnow.">
+						      		<input type="hidden" class="pageCount" value="1">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern2.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Certificate & gifts.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern2.jpg') }}" alt="2nd slide">
+						      		<input type="hidden" class="caption" value="Certificate & gifts from Ozkez Pty. Ltd / AGuyIKnow.">
+						      		<input type="hidden" class="pageCount" value="2">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern3.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Pizza farewell party.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern3.jpg') }}" alt="3rd slide">
+						      		<input type="hidden" class="caption" value="Pizza farewell party from Ozkez Pty. Ltd / AGuyIKnow.">
+						      		<input type="hidden" class="pageCount" value="3">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern4.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Gifts and Certificate from Ozkez Pty. Ltd / AGuyIKnow.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern4.jpg') }}" alt="4th slide">
+						      		<input type="hidden" class="caption" value="Gifts and Certificate from Ozkez Pty. Ltd / AGuyIKnow.">
+						      		<input type="hidden" class="pageCount" value="4">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern5.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Birthday party.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern5.jpg') }}" alt="5th slide">
+						      		<input type="hidden" class="caption" value="Birthday party sponsored by Ozkez Pty. Ltd / AGuyIKnow.">
+						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern6.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Noon snack.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern6.jpg') }}" alt="6th slide">
+						      		<input type="hidden" class="caption" value="Noon snack.">
+						      		<input type="hidden" class="pageCount" value="6">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern7.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Near midnight snack with our manager (PS. Our manager is the photographer).">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern7.jpg') }}" alt="7th slide">
+						      		<input type="hidden" class="caption" value="Near midnight snack with our manager (PS. Our manager is the photographer).">
+						      		<input type="hidden" class="pageCount" value="7">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern8.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Near midnight snack with our manager (PS. Our manager is the photographer).">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern8.jpg') }}" alt="8th slide">
+						      		<input type="hidden" class="caption" value="Near midnight snack with our manager (PS. Our manager is the photographer).">
+						      		<input type="hidden" class="pageCount" value="8">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern9.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Birthday party prepaired by our nice manager.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern9.jpg') }}" alt="9th slide">
+						      		<input type="hidden" class="caption" value="Birthday party prepaired by our nice manager.">
+						      		<input type="hidden" class="pageCount" value="9">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern10.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Birthday party prepaired by our nice manager.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern10.jpg') }}" alt="10th slide">
+						      		<input type="hidden" class="caption" value="Birthday party prepaired by our nice manager.">
+						      		<input type="hidden" class="pageCount" value="10">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/ojt/intern11.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Birthday party prepaired by our nice manager.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern11.jpg') }}" alt="11th slide">
+						      		<input type="hidden" class="caption" value="Birthday party prepaired by our nice manager.">
+						      		<input type="hidden" class="pageCount" value="11">
 						    	</div>
 						  	</div>
 						  	<a class="carousel-control-prev" href="#carouselIntern" role="button" data-slide="prev">
@@ -191,69 +266,85 @@
                 				</h3>
                 			</div>
 						  	<div class="carousel-inner" style="max-height: 305px;">
-						    	<div class="carousel-item active">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g1.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel active">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g1.jpg') }}" alt="1st slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="1">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g2.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g2.jpg') }}" alt="2nd slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="2">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g3.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g3.jpg') }}" alt="3rd slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="3">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g4.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g4.jpg') }}" alt="4th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="4">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g5.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g5.jpg') }}" alt="5th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g6.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g6.jpg') }}" alt="6th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="6">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g7.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g7.jpg') }}" alt="7th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="6">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g8.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g8.jpg') }}" alt="8th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="7">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g9.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g9.jpg') }}" alt="9th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="8">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g10.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g10.jpg') }}" alt="10th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="9">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g11.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g11.jpg') }}" alt="11th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="10">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g11.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g11.jpg') }}" alt="12th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="11">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g12.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g12.jpg') }}" alt="13th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="12">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g13.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g13.jpg') }}" alt="14th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="13">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g14.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g14.jpg') }}" alt="15th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="14">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/graduation/g15.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g15.jpg') }}" alt="16th slide">
+						      		<input type="hidden" class="caption" value="Graduation.">
+						      		<input type="hidden" class="pageCount" value="15">
 						    	</div>
 						  	</div>
 						  	<a class="carousel-control-prev" href="#carouselGrad" role="button" data-slide="prev">
@@ -276,29 +367,35 @@
                 				</h3>
                 			</div>
 						  	<div class="carousel-inner" style="max-height: 305px;">
-						    	<div class="carousel-item active">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel active">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others.jpg') }}" alt="1st slide">
+						      		<input type="hidden" class="caption" value="Thesis pre-oral defense.">
+						      		<input type="hidden" class="pageCount" value="1">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others0.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others0.jpg') }}" alt="2nd slide">
+						      		<input type="hidden" class="caption" value="IT ball - 2017.">
+						      		<input type="hidden" class="pageCount" value="2">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others1.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others1.jpg') }}" alt="3rd slide">
+						      		<input type="hidden" class="caption" value="CCS Acquaintance party - 2015.">
+						      		<input type="hidden" class="pageCount" value="3">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others2.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others2.jpg') }}" alt="4th slide">
+						      		<input type="hidden" class="caption" value="IT Ball - May 2018.">
+						      		<input type="hidden" class="pageCount" value="4">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others3.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others3.jpg') }}" alt="5th slide">
+						      		<input type="hidden" class="caption" value="IT days - 2016.">
+						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
-						    	<div class="carousel-item">
-						      		<img class="d-block w-100" src="{{ asset('assets/images/others/others4.jpg') }}" alt="First slide">
-						      		<input type="hidden" value="Caption.">
+						    	<div class="carousel-item carousel-img-panel">
+						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others4.jpg') }}" alt="6th slide">
+						      		<input type="hidden" class="caption" value="CCS Orientation - 2014.">
+						      		<input type="hidden" class="pageCount" value="6">
 						    	</div>
 						  	</div>
 						  	<a class="carousel-control-prev" href="#carouselOthers" role="button" data-slide="prev">
@@ -333,7 +430,7 @@
 	      </div>
 	      <div class="modal-body" style="height: 80%;">
 	      		<div class="row">
-	      			<div class="col-md-9">
+	      			<div class="col-md-9 carousel-img-panel">
 	      				<div id="carouselModal" class="carousel slide" data-interval="false">
 						  	<div class="carousel-inner">
 						    	<!-- will be inserted by images -->
@@ -349,6 +446,7 @@
 						</div>
 	      			</div>
 	      			<div class="col-md-3">
+						<p id="carouselPageNumber"></p>
 						<h3 id="carouseCaption"></h3>
 	      			</div>
 	      		</div>
@@ -358,7 +456,11 @@
 	</div>
 
 	<script type="text/javascript">
+
+		
+
 		$(function(){
+			
 
 			$('#carouselAwards').click(function(){
 			
@@ -408,31 +510,9 @@
 
 			});
 
-			$('#carouselModal').click(function(){
-
-				setCaption();
-
-			});
-
-			$(window).keydown(function(e){
-				if ($('#ssModal').is(':visible')) 
-				{
-					if (e.which == 39 || e.which == 37) 
-					{
-						setCaption();
-					}
-				}
-			});
-
-			function setCaption()
-			{
-				setTimeout(function(){
-					var caption = $('#carouselModal .carousel-inner .active input').val();
-					$('#carouseCaption').text(caption);
-				},650);
-			}
 
 		});
+
 	</script>
 
 @endsection

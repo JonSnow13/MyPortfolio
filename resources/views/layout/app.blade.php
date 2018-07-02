@@ -51,7 +51,7 @@
       </div>
     </div>
   </nav>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/images/bg.jpg');"></div>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/images/graduation/g1.jpg');"></div>
   <div class="main main-raised">
     
   	@yield('content')
@@ -67,6 +67,8 @@
       </div>
     </div>
   </footer>
+
+  @include('masterscript.script')
 
     <!--   Core JS Files   -->
 	<script src="{{ asset('assets/js/core/jquery.min.js') }}" type="text/javascript"></script>

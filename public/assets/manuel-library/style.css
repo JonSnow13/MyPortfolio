@@ -22,3 +22,21 @@
 .carousel:hover .more-photo-filter{
 	display: flex;
 }
+
+.img-auto-adjust{
+	visibility: hidden;
+	margin-right: auto!important;
+	margin-left: auto!important;
+}
+
+.carousel-img-panel{
+	background: #000; 
+	overflow: hidden;
+}
+
+.vr-hr-middle{
+	width: 100%; 
+	height: 100%; 
+	justify-content: center; 
+	display: inline-flex;
+}

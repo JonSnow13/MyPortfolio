@@ -63,78 +63,96 @@
     					17 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner">
-			    	<div class="carousel-item active">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/1-homepage.JPG') }}" alt="First slide">
-			      		<input type="hidden" value="This is the home page.">
+			  	<div class="carousel-inner" style="max-height: 305px;">
+			    	<div class="carousel-item carousel-img-panel active">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/1-homepage.JPG') }}" alt="1st slide">
+			      		<input type="hidden" class="caption" value="This is the home page.">
+						<input type="hidden" class="pageCount" value="1">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/2-searched-for-med.JPG') }}" alt="Second slide">
-			      		<input type="hidden" value="This is the search result.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/2-searched-for-med.JPG') }}" alt="2nd slide">
+			      		<input type="hidden" class="caption" value="This is the search result.">
+						<input type="hidden" class="pageCount" value="2">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/3-view-med.JPG') }}" alt="Third slide">
-			      		<input type="hidden" value="View details of medicine.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/3-view-med.JPG') }}" alt="3rd slide">
+			      		<input type="hidden" class="caption" value="View details of medicine.">
+						<input type="hidden" class="pageCount" value="3">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/4-view-med-reviews.JPG') }}" alt="Fourth slide">
-			      		<input type="hidden" value="View medicine reviews and comments.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/4-view-med-reviews.JPG') }}" alt="4th slide">
+			      		<input type="hidden" class="caption" value="View medicine reviews and comments.">
+						<input type="hidden" class="pageCount" value="4">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/5-view-more-med.JPG') }}" alt="Fifth slide">
-			      		<input type="hidden" value="View more similar medicine.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/5-view-more-med.JPG') }}" alt="5th slide">
+			      		<input type="hidden" class="caption" value="View more similar medicine.">
+						<input type="hidden" class="pageCount" value="5">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/6-view-direction.JPG') }}" alt="Sixth slide">
-			      		<input type="hidden" value="View Pharmacy/ Hospital map direction.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/6-view-direction.JPG') }}" alt="6th slide">
+			      		<input type="hidden" class="caption" value="View Pharmacy/ Hospital map direction.">
+						<input type="hidden" class="pageCount" value="6">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/7-view-street-view.JPG') }}" alt="Seventh slide">
-			      		<input type="hidden" value="View establishment's street view.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/7-view-street-view.JPG') }}" alt="7th slide">
+			      		<input type="hidden" class="caption" value="View establishment's street view.">
+						<input type="hidden" class="pageCount" value="7">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/8-view-open-hours.JPG') }}" alt="Eight slide">
-			      		<input type="hidden" value="View operating hours.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/8-view-open-hours.JPG') }}" alt="8th slide">
+			      		<input type="hidden" class="caption" value="View operating hours.">
+						<input type="hidden" class="pageCount" value="8">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/9-view-the-whole-map.JPG') }}" alt="Nineth slide">
-			      		<input type="hidden" value="View big map.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/9-view-the-whole-map.JPG') }}" alt="9th slide">
+			      		<input type="hidden" class="caption" value="View big map.">
+						<input type="hidden" class="pageCount" value="9">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/10-search-for-a-specific-pharmacy-or-hospital.JPG') }}" alt="Tenth slide">
-			      		<input type="hidden" value="Search box for specific pharmacy, hospital and clinic.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/10-search-for-a-specific-pharmacy-or-hospital.JPG') }}" alt="10th slide">
+			      		<input type="hidden" class="caption" value="Search box for specific pharmacy, hospital and clinic.">
+						<input type="hidden" class="pageCount" value="10">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/11-health-tips.JPG') }}" alt="Twelve slide">
-			      		<input type="hidden" value="Health tips page.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/11-health-tips.JPG') }}" alt="11th slide">
+			      		<input type="hidden" class="caption" value="Health tips page.">
+						<input type="hidden" class="pageCount" value="11">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/12-search-health-tips.JPG') }}" alt="Thirteenth slide">
-			      		<input type="hidden" value="Search result for healh tips.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/12-search-health-tips.JPG') }}" alt="12th slide">
+			      		<input type="hidden" class="caption" value="Search result for healh tips.">
+						<input type="hidden" class="pageCount" value="12">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/13-view-health-tip.JPG') }}" alt="Fourtieth slide">
-			      		<input type="hidden" value="View health tips.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/13-view-health-tip.JPG') }}" alt="13th slide">
+			      		<input type="hidden" class="caption" value="View health tips.">
+						<input type="hidden" class="pageCount" value="13">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/14-home-remedies.JPG') }}" alt="Fiftieth slide">
-			      		<input type="hidden" value="Home remedies page.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/14-home-remedies.JPG') }}" alt="14th slide">
+			      		<input type="hidden" class="caption" value="Home remedies page.">
+						<input type="hidden" class="pageCount" value="14">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/15-search-home-remedy.JPG') }}" alt="Sixtieth slide">
-			      		<input type="hidden" value="Search result for home remedies.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/15-search-home-remedy.JPG') }}" alt="15th slide">
+			      		<input type="hidden" class="caption" value="Search result for home remedies.">
+						<input type="hidden" class="pageCount" value="15">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/16-view-home-remedy.JPG') }}" alt="Ninetieth slide">
-			      		<input type="hidden" value="View home remedy.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/16-view-home-remedy.JPG') }}" alt="16th slide">
+			      		<input type="hidden" class="caption" value="View home remedy.">
+						<input type="hidden" class="pageCount" value="16">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/17-about.JPG') }}" alt="Third slide">
-			      		<input type="hidden" value="About page.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/17-about.JPG') }}" alt="17th slide">
+			      		<input type="hidden" class="caption" value="About page.">
+						<input type="hidden" class="pageCount" value="17">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheamed/18-talk-with-us.JPG') }}" alt="Third slide">
-			      		<input type="hidden" value="Have a conversation with us.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/18-talk-with-us.JPG') }}" alt="18th slide">
+			      		<input type="hidden" class="caption" value="Have a conversation with us.">
+						<input type="hidden" class="pageCount" value="18">
 			    	</div>
 			  	</div>
 			  	<a class="carousel-control-prev" href="#carouselTerheamed" role="button" data-slide="prev">
@@ -175,54 +193,66 @@
     					11 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner">
-			    	<div class="carousel-item active">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/1.JPG') }}" alt="First slide">
-			      		<input type="hidden" value="This is the home page.">
+			  	<div class="carousel-inner" style="max-height: 305px;">
+			    	<div class="carousel-item carousel-img-panel active">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/1.JPG') }}" alt="1st slide">
+			      		<input type="hidden" class="caption" value="This is the home page.">
+						<input type="hidden" class="pageCount" value="1">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/2.JPG') }}" alt="Second slide">
-			      		<input type="hidden" value="Item details.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/2.JPG') }}" alt="2nd slide">
+			      		<input type="hidden" class="caption" value="Item details.">
+						<input type="hidden" class="pageCount" value="2">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/3.JPG') }}" alt="Third slide">
-			      		<input type="hidden" value="An item has been successfully added.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/3.JPG') }}" alt="3rd slide">
+			      		<input type="hidden" class="caption" value="An item has been successfully added.">
+						<input type="hidden" class="pageCount" value="3">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/4.JPG') }}" alt="Fourth slide">
-			      		<input type="hidden" value="View cart page.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/4.JPG') }}" alt="4th slide">
+			      		<input type="hidden" class="caption" value="View cart page.">
+						<input type="hidden" class="pageCount" value="4">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/5.JPG') }}" alt="Fifth slide">
-			      		<input type="hidden" value="View Address options.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/5.JPG') }}" alt="5th slide">
+			      		<input type="hidden" class="caption" value="View Address options.">
+						<input type="hidden" class="pageCount" value="5">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/6.JPG') }}" alt="Sixth slide">
-			      		<input type="hidden" value="Payment process.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/6.JPG') }}" alt="6th slide">
+			      		<input type="hidden" class="caption" value="Payment process.">
+						<input type="hidden" class="pageCount" value="6">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/7.JPG') }}" alt="Seventh slide">
-			      		<input type="hidden" value="View order summary.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/7.JPG') }}" alt="7th slide">
+			      		<input type="hidden" class="caption" value="View order summary.">
+						<input type="hidden" class="pageCount" value="7">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/8.JPG') }}" alt="Eight slide">
-			      		<input type="hidden" value="Reset password.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/8.JPG') }}" alt="8th slide">
+			      		<input type="hidden" class="caption" value="Reset password.">
+						<input type="hidden" class="pageCount" value="8">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a1.JPG') }}" alt="Nineth slide">
-			      		<input type="hidden" value="All products - admin.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/a1.JPG') }}" alt="9th slide">
+			      		<input type="hidden" class="caption" value="All products - admin.">
+						<input type="hidden" class="pageCount" value="9">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a2.JPG') }}" alt="Tenth slide">
-			      		<input type="hidden" value="View customers orders.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/a2.JPG') }}" alt="10th slide">
+			      		<input type="hidden" class="caption" value="View customers orders.">
+						<input type="hidden" class="pageCount" value="10">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a3.JPG') }}" alt="Twelve slide">
-			      		<input type="hidden" value="Update status (Proccessing, Shipped, Delivered).">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/a3.JPG') }}" alt="11th slide">
+			      		<input type="hidden" class="caption" value="Update status (Proccessing, Shipped, Delivered).">
+						<input type="hidden" class="pageCount" value="11">
 			    	</div>
-			    	<div class="carousel-item">
-			      		<img class="d-block w-100" src="{{ asset('assets/images/terheashoppe/a4.JPG') }}" alt="Thirteenth slide">
-			      		<input type="hidden" value="View growth chart.">
+			    	<div class="carousel-item carousel-img-panel">
+			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/a4.JPG') }}" alt="12th slide">
+			      		<input type="hidden" class="caption" value="View growth chart.">
+						<input type="hidden" class="pageCount" value="12">
 			    	</div>
 			  	</div>
 			  	<a class="carousel-control-prev" href="#carouselTerheaShoppe" role="button" data-slide="prev">
@@ -352,43 +382,41 @@
 </div>
 
 <!-- Modal for view screenshots med -->
-<div class="modal fade" id="ssModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document" style="max-width: 90%;">
-    <div class="modal-content">
-      <div class="modal-header">
-      	<h5 class="modal-title">Terhea med</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" style="height: 80%;">
-      		<div class="row">
-      			<div class="col-md-9">
-      				<div id="carouselModal" class="carousel slide" data-interval="false">
-					  	<div class="carousel-inner">
-					    	<!-- will be inserted by images -->
-					  	</div>
-					  	<a class="carousel-control-prev" href="#carouselModal" role="button" data-slide="prev">
-					    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    	<span class="sr-only">Previous</span>
-					  	</a>
-					  	<a class="carousel-control-next" href="#carouselModal" role="button" data-slide="next">
-					    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    	<span class="sr-only">Next</span>
-					  	</a>
-					</div>
-      			</div>
-      			<div class="col-md-3">
-      				<p id="carouselDescription">
-					</p>
-					<br>
-					<p id="carouseCaption"></p>
-      			</div>
-      		</div>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="modal fade" id="ssModal" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" role="document" style="max-width: 90%;">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h5 class="modal-title">Terhea med</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body" style="height: 80%;">
+	      		<div class="row">
+	      			<div class="col-md-9 carousel-img-panel">
+	      				<div id="carouselModal" class="carousel slide" data-interval="false">
+						  	<div class="carousel-inner">
+						    	<!-- will be inserted by images -->
+						  	</div>
+						  	<a class="carousel-control-prev" href="#carouselModal" role="button" data-slide="prev">
+						    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    	<span class="sr-only">Previous</span>
+						  	</a>
+						  	<a class="carousel-control-next" href="#carouselModal" role="button" data-slide="next">
+						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    	<span class="sr-only">Next</span>
+						  	</a>
+						</div>
+	      			</div>
+	      			<div class="col-md-3">
+						<p id="carouselPageNumber"></p>
+						<h3 id="carouseCaption"></h3>
+	      			</div>
+	      		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 </div>
 
@@ -431,24 +459,6 @@
 			setCaption();
 
 		});
-
-		$(window).keydown(function(e){
-			if ($('#ssModal').is(':visible')) 
-			{
-				if (e.which == 39 || e.which == 37) 
-				{
-					setCaption();
-				}
-			}
-		});
-
-		function setCaption()
-		{
-			setTimeout(function(){
-				var caption = $('#carouselModal .carousel-inner .active input').val();
-				$('#carouseCaption').text(caption);
-			},650);
-		}
 
 	});
 
