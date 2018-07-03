@@ -286,7 +286,7 @@
 	        <div class="row">
 	        	<div class="col-md-4">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Manuel U. Ortega Jr.</h5>
@@ -297,7 +297,7 @@
 	        	</div>
 	        	<div class="col-md-4">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/angelica.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/angelica.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Ma. Angelica M. Pacaro</h5>
@@ -307,7 +307,7 @@
 	        	</div>
 	        	<div class="col-md-4">
 	        		<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/alliza.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/alliza.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Alliza Bless Alam</h5>
