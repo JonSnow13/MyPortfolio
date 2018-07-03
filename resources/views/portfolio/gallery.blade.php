@@ -389,7 +389,7 @@
 						    	</div>
 						    	<div class="carousel-item carousel-img-panel">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others3.jpg') }}" alt="5th slide">
-						      		<input type="hidden" class="caption" value="IT days - 2016.">
+						      		<input type="hidden" class="caption" value="IT days - 2016, With my competitor and at the same time my best friend, Kobe. We challenge each other in the field of IT. He was the person who woke my potential in programming with a strong words 'I know your LIMITATION' hahahaha. However, I am very grateful to him, because he challenges me in every way and I was able to improve myself in a great capacity. But, still, he has a brilliant mind than me. PS. In this photo we sang together 'Puros mga yabag' hahahahha ">
 						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
 						    	<div class="carousel-item carousel-img-panel">
