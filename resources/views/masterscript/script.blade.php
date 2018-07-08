@@ -53,7 +53,7 @@
 		ImageWidthHeightResponse();
 
 		var windowHeight = $(window).height();
-		$('.carousel-img-panel').css('height', windowHeight * .8 + 'px');
+		$('.carousel-img-panel').css('height', windowHeight * .75 + 'px');
 
 		$('#carouselModal').click(function(){
 
