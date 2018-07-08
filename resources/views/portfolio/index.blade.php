@@ -354,7 +354,7 @@
         	<div class="row">
         		<div class="col-md-3">
 		          	<div style="width: 100px;" class="ml-auto mr-auto">
-		          		<img src="{{ asset('assets/images/profile.JPG') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+		          		<img src="{{ asset('assets/images/profile.jpg') }}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
 		          	</div>
 		          	<div class="name text-center">
 		            	<h5 class="title">Manuel U. Ortega Jr.</h5>
