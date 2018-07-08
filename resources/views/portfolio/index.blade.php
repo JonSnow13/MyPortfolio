@@ -63,7 +63,7 @@
     					17 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner" style="max-height: 305px;">
+			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 			    	<div class="carousel-item carousel-img-panel active">
 			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/1-homepage.JPG') }}" alt="1st slide">
 			      		<input type="hidden" class="caption" value="This is the home page.">
@@ -193,7 +193,7 @@
     					11 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner" style="max-height: 305px;">
+			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 			    	<div class="carousel-item carousel-img-panel active">
 			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/1.JPG') }}" alt="1st slide">
 			      		<input type="hidden" class="caption" value="This is the home page.">
@@ -423,11 +423,14 @@
 <script type="text/javascript">
 	
 	$(function(){
-		var VideoShoppeWidth = $('#terheaMedVideo').css('width'); //get the width of video iframe
-		VideoShoppeWidth = (VideoShoppeWidth.replace('px', '')) * .57;
 
-		$('#terheaShoppeVideo').css('height', VideoShoppeWidth + 'px'); //set the height of video iframe
-		$('#terheaMedVideo').css('height', VideoShoppeWidth + 'px');	//set the height of video iframe
+		var VideoWidth = $('#terheaMedVideo').css('width'); //get the width of video iframe
+		var videoHalfWidth = (VideoWidth.replace('px', '')) * .57;
+
+		$('.setImagePanelHeight').css('max-height', videoHalfWidth + 'px');
+
+		$('#terheaShoppeVideo').css('height', videoHalfWidth + 'px'); //set the height of video iframe
+		$('#terheaMedVideo').css('height', videoHalfWidth + 'px');	//set the height of video iframe
 
 
 		$('#carouselTerheamed').click(function(){

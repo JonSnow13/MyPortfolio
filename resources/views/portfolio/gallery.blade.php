@@ -45,7 +45,7 @@
                 					11 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner" style="max-height: 305px; height: 305px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Outstanding On the Job Trainee">
@@ -186,7 +186,7 @@
                 					10 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner" style="max-height: 305px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern1.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Certificate & gifts from Ozkez Pty. Ltd / AGuyIKnow.">
@@ -265,7 +265,7 @@
                 					14 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner" style="max-height: 305px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g1.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Graduation.">
@@ -366,7 +366,7 @@
                 					4 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner" style="max-height: 305px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Thesis pre-oral defense.">
@@ -389,7 +389,7 @@
 						    	</div>
 						    	<div class="carousel-item carousel-img-panel">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others3.jpg') }}" alt="5th slide">
-						      		<input type="hidden" class="caption" value="IT days - 2016, With my competitor and at the same time my best friend, Kobe. We challenge each other in the field of IT. He was the person who woke my potential in programming with a strong words 'I know your LIMITATION' hahahaha. However, I am very grateful to him, because he challenges me in every way and I was able to improve myself in a great capacity. But, still, he has a brilliant mind than me. PS. In this photo we sang together 'Puros mga yabag' hahahahha ">
+						      		<input type="hidden" class="caption" value="IT days - 2016. ">
 						      		<input type="hidden" class="pageCount" value="5">
 						    	</div>
 						    	<div class="carousel-item carousel-img-panel">
@@ -458,8 +458,12 @@
 	<script type="text/javascript">
 
 		
-
 		$(function(){
+
+			var imgWidth = $('.carousel-img-panel').css('width'); //get the width of video iframe
+			var imgHalfWidth = (imgWidth.replace('px', '')) * .57;
+
+			$('.setImagePanelHeight').css('max-height', imgHalfWidth + 'px');
 			
 
 			$('#carouselAwards').click(function(){
