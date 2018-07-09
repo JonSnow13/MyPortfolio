@@ -63,7 +63,7 @@
     					17 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px; background: #000;">
 			    	<div class="carousel-item carousel-img-panel active">
 			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheamed/1-homepage.JPG') }}" alt="1st slide">
 			      		<input type="hidden" class="caption" value="This is the home page.">
@@ -193,7 +193,7 @@
     					11 more photos
     				</h3>
     			</div>
-			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+			  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px; background: #000">
 			    	<div class="carousel-item carousel-img-panel active">
 			      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/terheashoppe/1.JPG') }}" alt="1st slide">
 			      		<input type="hidden" class="caption" value="This is the home page.">
@@ -406,6 +406,7 @@
 						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    	<span class="sr-only">Next</span>
 						  	</a>
+						  	<div id="loader" class="loaderModal-container"></div>
 						</div>
 	      			</div>
 	      			<div class="col-md-3">
@@ -428,6 +429,7 @@
 		var videoHalfWidth = (VideoWidth.replace('px', '')) * .57;
 
 		$('.setImagePanelHeight').css('max-height', videoHalfWidth + 'px');
+		$('.setImagePanelHeight').css('height', videoHalfWidth + 'px');
 
 		$('#terheaShoppeVideo').css('height', videoHalfWidth + 'px'); //set the height of video iframe
 		$('#terheaMedVideo').css('height', videoHalfWidth + 'px');	//set the height of video iframe

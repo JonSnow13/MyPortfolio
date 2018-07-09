@@ -12,7 +12,7 @@
 	        	// console.log(r1);
 	            if (this.width > this.height) {
 	                
-	            	if (r1 > .6) 
+	            	if (r1 > .7) 
 	            	{
 	            		imgSrc.style.height = '100%';
 	            	}
@@ -38,7 +38,12 @@
 
 	function setCaption()
 	{
+		
+		loader();	
 		setTimeout(function(){
+
+			$('.loaderModal').remove();
+
 			var caption = $('#carouselModal .carousel-inner .active .caption').val();
 			$('#carouseCaption').text(caption);
 
@@ -48,15 +53,26 @@
 		},650);
 	}
 
+	function loader()
+	{
+		var loader = document.createElement('img');
+		loader.src = "{{ asset('assets/images/loader.gif') }}";
+		$(loader).attr('class', 'loaderModal');
+		$('#loader').append(loader);
+	}
+
 	$(function(){
 
 		ImageWidthHeightResponse();
 
-		var windowHeight = $(window).height();
-		$('.carousel-img-panel').css('height', windowHeight * .75 + 'px');
+		$(window).click(function(){
+
+			var windowHeight = $(window).height();
+			$('#ssModal .carousel-img-panel').css('height', windowHeight * .75 + 'px');
+
+		});
 
 		$('#carouselModal').click(function(){
-
 			setCaption();
 
 		});

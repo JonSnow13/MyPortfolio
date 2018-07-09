@@ -40,3 +40,28 @@
 	justify-content: center; 
 	display: inline-flex;
 }
+
+.carousel-img-panel .active{
+	justify-content: center;
+	display: inline-flex!important;
+	transition: ease-all;
+}
+
+#ssModal .carousel-item-right{
+	display: none;
+}
+
+#ssModal .carousel-item-left{
+	display: none;
+}
+
+.loaderModal{
+	width: 35px;
+}
+
+.loaderModal-container{
+	width: 100%; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%;
+}

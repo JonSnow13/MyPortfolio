@@ -45,7 +45,7 @@
                 					11 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px; background: #000;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/achievements/img.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Outstanding On the Job Trainee">
@@ -186,7 +186,7 @@
                 					10 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px; background: #000;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/ojt/intern1.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Certificate & gifts from Ozkez Pty. Ltd / AGuyIKnow.">
@@ -265,7 +265,7 @@
                 					14 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px; background: #000;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/graduation/g1.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Graduation.">
@@ -366,7 +366,7 @@
                 					4 more photos
                 				</h3>
                 			</div>
-						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;">
+						  	<div class="carousel-inner setImagePanelHeight" style="max-height: 105px;  background: #000;">
 						    	<div class="carousel-item carousel-img-panel active">
 						      		<img class="d-block img-auto-adjust" src="{{ asset('assets/images/others/others.jpg') }}" alt="1st slide">
 						      		<input type="hidden" class="caption" value="Thesis pre-oral defense.">
@@ -443,6 +443,7 @@
 						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    	<span class="sr-only">Next</span>
 						  	</a>
+						  	<div id="loader" class="loaderModal-container"></div>
 						</div>
 	      			</div>
 	      			<div class="col-md-3">
@@ -464,6 +465,7 @@
 			var imgHalfWidth = (imgWidth.replace('px', '')) * .57;
 
 			$('.setImagePanelHeight').css('max-height', imgHalfWidth + 'px');
+			$('.setImagePanelHeight').css('height', imgHalfWidth + 'px');
 			
 
 			$('#carouselAwards').click(function(){
