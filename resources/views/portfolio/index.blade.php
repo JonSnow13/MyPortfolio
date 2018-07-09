@@ -459,12 +459,6 @@
 
 		});
 
-		$('#carouselModal').click(function(){
-
-			setCaption();
-
-		});
-
 	});
 
 </script>
